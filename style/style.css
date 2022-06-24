@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.buttonMenu {
+    background-color: #E7E7E7;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+
+}
+.menu{
+    width:100vw;
+    height: 45px;
+    background-color: #E7E7E7;
+}
+
+.body{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.card{
+    width: 90%;
+    height: min-content;
+    background-color: #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img{
+    width: 90%;
+    border-radius: 10px;
+    margin: 5px;
+}
+th{
+    text-align: left;
+    color: #848484;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+td{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.info {
+    padding: 5px;
+    font-size: 18pt;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.permission{
+    display: flex;
+    font-size: 24pt;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #848484;
+
+}
+.permission img{
+    width: 38px;
+    height: 38px;
+}
